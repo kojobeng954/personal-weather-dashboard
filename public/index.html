@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <h1>Weather Dashboard</h1>
+    <p>Enter any city to find the weather</p>
+    <input type="text" name="weather-text" id="textarea" placeholder="Enter a city"><br>
+    <button type="submit" id="submit-btn">Search</button>
+
+    <div id="result-container" class="hidden"></div>
+    <div id="error-message" class="hidden"></div>
+    <div class="spinner hidden" id="spinner"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
